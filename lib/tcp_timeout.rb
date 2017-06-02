@@ -8,6 +8,7 @@ module TCPTimeout
     getsockopt setsockopt
     local_address remote_address
     read_nonblock write_nonblock
+    recv_nonblock
     fileno
   ]
 
